@@ -17,8 +17,8 @@ Window::Window()
 	windowColour = { 255,255,255,255 };
 	isRunning = true;
 	showFrameRate = false;
+	frameRate = 60.0f;
 	deltaTimeMillis = static_cast<Uint16>(round((1.0f / frameRate) * 1000));
-	this->frameRate = frameRate;
 	
 	
 }
